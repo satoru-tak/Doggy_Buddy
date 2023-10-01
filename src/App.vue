@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div id="app">
     <h3>掲示板に投稿する</h3>
     <div v-if="client === ''">
@@ -111,4 +111,23 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
-</style>
+</style> -->
+
+<template>
+  <NavBar />
+  <div class='container mx-auto'>
+    <router-view/>
+  </div>
+</template>
+
+<script lang="ts">
+import { defineComponent } from "vue";
+import NavBar from './components/NavBar.vue'
+
+export default defineComponent({
+  name: "App",
+  components: {
+    NavBar
+  }
+})
+</script>
