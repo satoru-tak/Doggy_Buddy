@@ -15,13 +15,12 @@
     <h2 class="text-3xl m-16 font-bold text-center">大切な愛犬と、近所の信頼できる愛犬家が繋がるサービス</h2>
     <div class="columns-3">
       <div class="w-full px-5">
-        <p><i class="far fa-calendar-alt text-success fa-5x"></i></p>
+        <p><font-awesome-icon :icon="['fas', 'calendar-alt']" /></p>
         <h6 class="text-lg font-bold pt-4">スケジュールを設定する</h6>
         <p class="pt-3">希望の曜日と時間を決めて、お互いのスケジュールに合わせて調整します</p>
       </div>
 
       <div class="w-full px-5">
-        <font-awesome-icon :icon="['fas', 'calendar-alt']" />
         <p><i class="fas fa-house-user text-success fa-5x"></i></p>
         <h6 class="text-lg font-bold pt-4">信頼できる愛犬家とマッチング</h6>
         <p class="pt-3">愛犬家のプロフィールやレビューを閲覧して、あなたに合ったマッチングが出来ます</p>
