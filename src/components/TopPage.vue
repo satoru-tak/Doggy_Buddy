@@ -6,7 +6,7 @@
       <p class="text-base break-words mb-8">DoggyBuddyは、忙しくて愛犬のお世話が出来ない飼い主と
       <br>近くに住んでる愛犬家を繋ぐドッグシッターサービスです</p>
       <button class="bg-emerald-500 hover:bg-emerald-600 text-white py-2 px-6 m-4 rounded">シッターを探す</button>
-      <button class="bg-emerald-500 hover:bg-emerald-600 text-white  py-2 px-6 m-4 rounded">シッターになる</button>
+      <button class="bg-emerald-500 hover:bg-emerald-600 text-white py-2 px-6 m-4 rounded">シッターになる</button>
     </div>
   </div>
 
@@ -15,19 +15,19 @@
     <h2 class="text-3xl m-16 font-bold text-center">大切な愛犬と、近所の信頼できる愛犬家が繋がるサービス</h2>
     <div class="columns-3">
       <div class="w-full px-5">
-        <p><font-awesome-icon :icon="['fas', 'calendar-alt']" /></p>
+        <p class="text-5xl text-center text-emerald-500 mb-5"><font-awesome-icon :icon="['fas', 'calendar-alt']" /></p>
         <h6 class="text-lg font-bold pt-4">スケジュールを設定する</h6>
         <p class="pt-3">希望の曜日と時間を決めて、お互いのスケジュールに合わせて調整します</p>
       </div>
 
       <div class="w-full px-5">
-        <p><i class="fas fa-house-user text-success fa-5x"></i></p>
+        <p class="text-5xl text-center text-emerald-500 mb-5"><font-awesome-icon :icon="['fas', 'house-user']" /></p>
         <h6 class="text-lg font-bold pt-4">信頼できる愛犬家とマッチング</h6>
         <p class="pt-3">愛犬家のプロフィールやレビューを閲覧して、あなたに合ったマッチングが出来ます</p>
       </div>
 
       <div class="w-full px-5">
-        <p><i class="fas fa-camera text-success fa-5x"></i></p>
+        <p class="text-5xl text-center text-emerald-500 mb-5"><font-awesome-icon :icon="['fas', 'camera']" /></p>
         <h6 class="text-lg font-bold pt-4">愛犬の様子を写真や動画で確認</h6>
         <p class="pt-3">サイト内で用意しているトークルームで、愛犬の様子や質問など気軽に連絡できます</p>
       </div>
