@@ -115,9 +115,7 @@ export default {
 
 <template>
   <NavBar />
-  <div class='container mx-auto'>
-    <router-view/>
-  </div>
+  <router-view/>
 </template>
 
 <script lang="ts">
