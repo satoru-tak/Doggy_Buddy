@@ -19,9 +19,6 @@
 import { defineComponent } from 'vue';
 import AuthService from '../services/AuthService'
 import { AxiosError } from 'axios'
-// import User from '../types/user';
-// import ResponseData from '../types/ResponseData';
-// import router from '../router';
 
 export default defineComponent({
   name: 'Login',
@@ -42,7 +39,6 @@ export default defineComponent({
       };
 
       AuthService.login(data).then((response) => {
-        // console.log(AxiosResponse)
         localStorage.setItem("access-token", response.headers["access-token"]);
         localStorage.setItem("client", response.headers["client"]);
         localStorage.setItem("uid", response.headers["uid"]);
