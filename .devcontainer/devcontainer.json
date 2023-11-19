@@ -21,16 +21,15 @@
 		"vscode": {
 			"extensions": [
 				"vscode-icons-team.vscode-icons",
-				"wingrunr21.vscode-ruby",
 				"Vue.vscode-typescript-vue-plugin",
 				"bradlc.vscode-tailwindcss",
-				"rebornix.ruby",
 				"humao.rest-client",
 				"esbenp.prettier-vscode",
 				"oderwat.indent-rainbow",
 				"eamodio.gitlens",
 				"streetsidesoftware.code-spell-checker",
-				"Vue.volar"
+				"Vue.volar",
+				"Shopify.ruby-lsp"
 			]
 		}
 	}
