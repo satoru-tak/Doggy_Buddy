@@ -23,6 +23,7 @@
 <script lang="ts">
 import { defineComponent} from 'vue';
 import AuthService from '../services/AuthService';
+import { AxiosError } from 'axios'
 
 export default defineComponent({
   name: 'SignUp',
@@ -53,8 +54,8 @@ export default defineComponent({
         this.access_token = response.headers["access-token"];
         this.client = response.headers["client"];
         this.uid = response.headers["uid"];
-      }).catch((e: Error) => {
-        console.log(e)
+      }).catch((e: AxiosError) => {
+        console.log(e.response?.data)
       });
     },
   }
